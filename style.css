@@ -17,6 +17,7 @@ button{
     padding-right: 250px;
 }
 
+
 .header, .footer, .content {
     background-color: #1F2937;
 }
@@ -146,4 +147,75 @@ button{
     text-align: center;
     padding-left: 35px;
     padding-right: 35px;
+}
+/**-------------------------------------------------------------**/
+.quote{
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 100px 400px 100px 400px;
+
+}
+.full-quote{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+.quote-credit{
+    color: #1f2937;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0;
+}
+/**-------------------------------------------------------------**/
+.sign-up-space{
+    display: flex;
+    background-color: #f9faf8;
+    /**padding: 200px 400px 200px 400px;**/
+    justify-content: center;
+}
+.call-to-action{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    border-radius: 8px;
+    height:225px;
+    margin: 75px 400px 75px 400px;
+    background-color: #3882f6;
+}
+.cta-text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /**align-items: center;**/
+    padding-left: 120px;
+    padding-top: 12px;
+    color:#f9faf8;
+    font-family: sans-serif;
+}
+
+.p1{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 32px;
+}
+.p2{
+    margin-top: 0;
+    font-weight: 200;
+}
+.cta-button{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action button{
+    border-color: #f9faf8;
+    height:60px;
+    width: 215px;
+    font-size: 23px;
 }
